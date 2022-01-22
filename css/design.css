@@ -19,7 +19,7 @@ body {
     
     #page-x{
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(6, 1fr);
     } 
 }
@@ -71,7 +71,7 @@ body {
 }
 
 form{
-    padding: 30px 20px;
+    padding: 35px 20px;
 }
 
 input {
@@ -86,14 +86,14 @@ input {
     background: linear-gradient( rgba(82,255,177,1) 35%, rgba(0,212,255,1) 100%);
     border-radius: 5px 5px;
     border: .4px solid skyblue;
-    padding: 3px 10px;
+    padding: 3px 20px;
     margin: 0% 10% 10% 35%;
 }
 .btn-btn:active{
     background: skyblue;
 }
 
-@media only screen and (min-width: 360px){
+@media only screen and (min-width: 320px){
     
     .main-logo{
     width: 50px;
@@ -106,22 +106,22 @@ input {
         box-shadow: 5px 15px 10px #515151;
         color: #fff;
         border-radius: 10px 10px;
-        width: 15rem;
-        margin: 12% 17% 0% 15%;
+        width: 17rem;
+        margin: 12% 15% 0% 15%;
 
     }
     
     form{
         padding: 30px 20px;
-        margin-left: 8%;
+        margin-left: 13%;
     }
 
     .btn-btn{
         background: linear-gradient( rgba(82,255,177,1) 35%, rgba(0,212,255,1) 100%);
         border-radius: 5px 5px;
         border: .4px solid skyblue;
-        padding: 3px 10px;
-        margin: 0% 10% 10% 38%;
+        padding: 3px 20px;
+        margin: 0% 10% 10% 35%;
     }
 }
 
@@ -139,7 +139,7 @@ input {
         border-radius: 10px 10px;
         width: 25rem;
         height: 25rem;
-        margin: 10% 25% 0 23%;
+        margin: 10% 25% 0 20%;
     }
     
     form{
@@ -162,7 +162,7 @@ input {
 
     .main-title{
         text-align: center;
-        font-size: 1.7rem;
+        font-size: 1.5rem;
         color: #000;
     }
 

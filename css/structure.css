@@ -20,7 +20,7 @@ body {
     section {
         overflow-y: hidden;
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(6, 1fr);
     } 
 }
@@ -164,7 +164,7 @@ input {
         border-radius: 10px 10px;
         width: 25rem;
         height: 25rem;
-        margin: 10% 25% 0 23%;
+        margin: 10% 25% 0 20%;
     }
     
     
