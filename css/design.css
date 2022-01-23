@@ -113,7 +113,7 @@ input {
     }
     
     form{
-        padding: 20px 20px;
+        padding: 30px 20px;
         margin-left: 13%;
     }
 
@@ -183,7 +183,7 @@ input {
 }
     
 form{
-    margin-left: 11%;
+    margin-left: 13%;
     padding: 20px 20px;
 }
 
@@ -191,7 +191,7 @@ input{
     background: #e6e6fa;
     border-radius: 5px 5px;
     border: .5px solid #fff;
-    padding: 8px 35px;
+    padding: 8px 30px;
     margin-top: 7px;
 }
 
