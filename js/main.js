@@ -22,7 +22,6 @@ function clickForm() {
   const userDirect = {startUserName, requestedUserEmail, userPassword}
     localStorage.setItem('userDirect', JSON.stringify(userDirect));
     console.log(typeof userDirect);
-    alert (`bienvenido ${startUserName}, comenzemos!`.toUpperCase());
   
   if (startUserName == '') {
     let userNameMessage = ('Nombre incompleto!');
