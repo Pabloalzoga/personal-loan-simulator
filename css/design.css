@@ -10,6 +10,7 @@
 body {
     height: 100vh;
     background: linear-gradient(95deg, rgba(10,2,147,1) 1%, rgba(82,255,177,1) 35%, rgba(0,212,255,1) 100%);
+    backdrop-filter: blur(5px);
     font-family: 'Roboto', sans-serif; 
     font-size: 0.9rem;
     overflow-y: hidden; 
@@ -108,21 +109,22 @@ input {
         color: #fff;
         border-radius: 10px 10px;
         width: 18rem;
-        margin: 40% 15% 0% 15%;
+        height: 28rem;
+        margin: 45% 15% 0% 15%;
 
     }
     
     form{
         padding: 30px 20px;
-        margin-left: 13%;
+        margin-left: 40px;
     }
 
     .btn-btn{
         background: linear-gradient( rgba(82,255,177,1) 35%, rgba(0,212,255,1) 100%);
         border-radius: 5px 5px;
         border: .4px solid #fff;
-        padding: 3px 20px;
-        margin: 0% 10% 10% 35%;
+        padding: 5px 20px;
+        margin: 0% 10% 10% 37%;
     }
 }
 
@@ -144,7 +146,7 @@ input {
     }
     
     form{
-        margin-left: 25%;
+        margin-left: 40px;
         padding: 30px 20px;
     }
 
@@ -183,7 +185,7 @@ input {
 }
     
 form{
-    margin-left: 13%;
+    margin-left: 40px;
     padding: 20px 20px;
 }
 
@@ -200,7 +202,7 @@ input{
     border-radius: 5px 5px;
     border: .4px solid #fff;
     width: 7rem;
-    padding: 4px 30px;
+    padding: 6px 30px;
     margin: 1% 10% 10% 33%;
     }
 }
